@@ -24,7 +24,7 @@ var objectKeys = require( '@stdlib/utils/keys' );
 var isCapitalized = require( '@stdlib/assert/is-capitalized' );
 var uncapitalize = require( '@stdlib/string/uncapitalize' );
 var capitalize = require( '@stdlib/string/capitalize' );
-var tokenize = require( '@stdlib/nlp/tokenize' );
+var tokenize = require( './../../tokenize' );
 var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
 var CONTRACTIONS = require( './contractions.json' );
 

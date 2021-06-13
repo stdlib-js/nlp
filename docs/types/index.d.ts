@@ -21,10 +21,10 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import expandContractions = require( '@stdlib/nlp/expand-contractions' );
-import lda = require( '@stdlib/nlp/lda' );
-import porterStemmer = require( '@stdlib/nlp/porter-stemmer' );
-import tokenize = require( '@stdlib/nlp/tokenize' );
+import expandContractions = require( './../../expand-contractions' );
+import lda = require( './../../lda' );
+import porterStemmer = require( './../../porter-stemmer' );
+import tokenize = require( './../../tokenize' );
 
 /**
 * Interface describing the `nlp` namespace.
