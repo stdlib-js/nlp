@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Standard library natural language processing.",
   "license": "Apache-2.0",
   "author": {
@@ -15,6 +15,7 @@
   ],
   "main": "./lib",
   "directories": {
+    "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
     "test": "./test"
@@ -35,16 +36,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array": "^0.0.x",
-    "@stdlib/assert": "^0.0.x",
-    "@stdlib/math": "^0.0.x",
-    "@stdlib/random": "^0.0.x",
-    "@stdlib/string": "^0.0.x",
-    "@stdlib/utils": "^0.0.x"
+    "@stdlib/array": "github:stdlib-js/array#main",
+    "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/math": "github:stdlib-js/math#main",
+    "@stdlib/random": "github:stdlib-js/random#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
+    "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/datasets": "^0.0.x",
+    "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/datasets": "github:stdlib-js/datasets",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-spec": "5.x.x"
