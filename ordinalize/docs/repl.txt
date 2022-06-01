@@ -1,17 +1,28 @@
 
 {{alias}}( value[, options] )
-    Turn an integer into an ordinal string (e.g., `1st`, `2nd`, etc.).
+    Converts an integer to an ordinal string (e.g., `1st`, `2nd`, etc.).
 
     Parameters
     ----------
-    value: string
-        Input word.
+    value: string|integer
+        Input value.
 
     options: Object (optional)
         Options.
 
     options.lang: string (optional)
-        Language code. Default: `'en'`.
+        Language code. Supported languages:
+
+        - en: English.
+        - es: Spanish.
+        - fin: Finnish.
+        - fr: French.
+        - de: Dutch.
+        - it: Italian.
+        - pt: Portuguese.
+        - swe: Swedish.
+
+        Default: `'en'`.
 
     options.suffixOnly: boolean (optional)
         Boolean indicating whether to return only the suffix. Default: `false`.
@@ -23,7 +34,7 @@
     Returns
     -------
     out: string
-        Ordinal string or suffix
+        Ordinal string or suffix.
 
     Examples
     --------
@@ -32,7 +43,7 @@
     > out = {{alias}}( 2, { 'suffixOnly': true } )
     'nd'
     > out = {{alias}}( '3', { 'lang': 'es' } )
-    '3ª'
+    '3º'
 
     See Also
     --------

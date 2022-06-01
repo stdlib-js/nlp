@@ -24,11 +24,24 @@
 interface Options {
 	/**
 	* Language code (default: 'en').
+	*
+	* ## Notes
+	*
+	* Supported languages:
+	*
+	* -   **en**: English.
+	* -   **es**: Spanish.
+	* -   **fin**: Finnish.
+	* -   **fr**: French.
+	* -   **de**: Dutch.
+	* -   **it**: Italian.
+	* -   **pt**: Portuguese.
+	* -   **swe**: Swedish.
 	*/
 	lang?: 'en' | 'es' | 'fin' |'fr' | 'de' | 'it' | 'pt' | 'swe';
 
 	/**
-	* Boolean indicating  whether to return only the suffix (default: false).
+	* Boolean indicating whether to return only the suffix (default: false).
 	*/
 	suffixOnly?: boolean;
 
@@ -39,7 +52,7 @@ interface Options {
 }
 
 /**
-* Turns an integer into an ordinal string (e.g., `1st`, `2nd`, etc.).
+* Converts an integer to an ordinal string (e.g., `1st`, `2nd`, etc.).
 *
 * @param value - string or number to convert
 * @param options - options
@@ -68,7 +81,7 @@ interface Options {
 * var out = ordinalize( '7', { 'lang': 'es' } );
 * // returns '7ª'
 */
-declare function ordinalize( value: string | number, options?: Options ): string;
+declare function ordinalize( value: string | number, options?: Options ): string; // tslint-disable-line max-line-length
 
 
 // EXPORTS //
