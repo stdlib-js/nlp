@@ -24,20 +24,30 @@ limitations under the License.
 
 > Natural language processing (NLP).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/nlp
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+var nlp = require( '@stdlib/nlp' );
 ```
 
 #### nlp
@@ -53,8 +63,10 @@ var fcns = nlp;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`expandAcronyms( str )`][@stdlib/nlp/expand-acronyms]</span><span class="delimiter">: </span><span class="description">expand acronyms.</span>
 -   <span class="signature">[`expandContractions( str )`][@stdlib/nlp/expand-contractions]</span><span class="delimiter">: </span><span class="description">expand all contractions to their formal equivalents.</span>
 -   <span class="signature">[`lda( docs, K[, options] )`][@stdlib/nlp/lda]</span><span class="delimiter">: </span><span class="description">latent Dirichlet Allocation via collapsed Gibbs sampling.</span>
+-   <span class="signature">[`ordinalize( value )`][@stdlib/nlp/ordinalize]</span><span class="delimiter">: </span><span class="description">convert an integer to an ordinal string (e.g., `1st`, `2nd`, etc.).</span>
 -   <span class="signature">[`porterStemmer( word )`][@stdlib/nlp/porter-stemmer]</span><span class="delimiter">: </span><span class="description">extract the stem of a given word.</span>
 -   <span class="signature">[`tokenize( str[, keepWhitespace] )`][@stdlib/nlp/tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string.</span>
 
@@ -75,8 +87,8 @@ var fcns = nlp;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+var objectKeys = require( '@stdlib/utils/keys' );
+var nlp = require( '@stdlib/nlp' );
 
 console.log( objectKeys( nlp ) );
 ```
@@ -102,7 +114,7 @@ console.log( objectKeys( nlp ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -164,9 +176,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/nlp/expand-acronyms]: https://github.com/stdlib-js/nlp/tree/main/expand-acronyms
+
 [@stdlib/nlp/expand-contractions]: https://github.com/stdlib-js/nlp/tree/main/expand-contractions
 
 [@stdlib/nlp/lda]: https://github.com/stdlib-js/nlp/tree/main/lda
+
+[@stdlib/nlp/ordinalize]: https://github.com/stdlib-js/nlp/tree/main/ordinalize
 
 [@stdlib/nlp/porter-stemmer]: https://github.com/stdlib-js/nlp/tree/main/porter-stemmer
 
