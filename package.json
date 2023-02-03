@@ -44,8 +44,8 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/bench": "github:stdlib-js/bench",
-    "@stdlib/datasets": "github:stdlib-js/datasets",
+    "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/datasets": "github:stdlib-js/datasets#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
