@@ -26,6 +26,7 @@ import expandContractions = require( './../../expand-contractions' );
 import lda = require( './../../lda' );
 import ordinalize = require( './../../ordinalize' );
 import porterStemmer = require( './../../porter-stemmer' );
+import sentencize = require( './../../sentencize' );
 import tokenize = require( './../../tokenize' );
 
 /**
@@ -141,6 +142,29 @@ interface Namespace {
 	* // returns ''
 	*/
 	porterStemmer: typeof porterStemmer;
+
+	/**
+	* Splits a string into an array of sentences.
+	*
+	* @param str - input string
+	* @returns array of sentences
+	*
+	* @example
+	* var str = 'Hello World! How are you?';
+	* var out = ns.sentencize( str );
+	* // returns [ 'Hello World!', 'How are you?' ]
+	*
+	* @example
+	* var str = '';
+	* var out = ns.sentencize( str );
+	* // returns []
+	*
+	* @example
+	* var str = 'Hello Mrs. Maple, could you call me back?';
+	* var out = ns.sentencize( str );
+	* // returns [ 'Hello Mrs. Maple, could you call me back?' ]
+	*/
+	sentencize: typeof sentencize;
 
 	/**
 	* Tokenize a string.
