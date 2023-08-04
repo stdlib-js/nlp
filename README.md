@@ -68,6 +68,7 @@ var fcns = nlp;
 -   <span class="signature">[`lda( docs, K[, options] )`][@stdlib/nlp/lda]</span><span class="delimiter">: </span><span class="description">latent Dirichlet Allocation via collapsed Gibbs sampling.</span>
 -   <span class="signature">[`ordinalize( value[, options] )`][@stdlib/nlp/ordinalize]</span><span class="delimiter">: </span><span class="description">convert an integer to an ordinal string (e.g., `1st`, `2nd`, etc.).</span>
 -   <span class="signature">[`porterStemmer( word )`][@stdlib/nlp/porter-stemmer]</span><span class="delimiter">: </span><span class="description">extract the stem of a given word.</span>
+-   <span class="signature">[`sentencize( str )`][@stdlib/nlp/sentencize]</span><span class="delimiter">: </span><span class="description">split a string into an array of sentences.</span>
 -   <span class="signature">[`tokenize( str[, keepWhitespace] )`][@stdlib/nlp/tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string.</span>
 
 </div>
@@ -185,6 +186,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/nlp/ordinalize]: https://github.com/stdlib-js/nlp/tree/main/ordinalize
 
 [@stdlib/nlp/porter-stemmer]: https://github.com/stdlib-js/nlp/tree/main/porter-stemmer
+
+[@stdlib/nlp/sentencize]: https://github.com/stdlib-js/nlp/tree/main/sentencize
 
 [@stdlib/nlp/tokenize]: https://github.com/stdlib-js/nlp/tree/main/tokenize
 
