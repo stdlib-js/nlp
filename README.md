@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/nlp/tags). For example,
+
+```javascript
 import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.1.0-deno/mod.js';
+import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
 ```
 
 #### nlp
@@ -90,7 +95,7 @@ var fcns = nlp;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.1.0-deno/mod.js';
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
 
 console.log( objectKeys( nlp ) );
 ```
