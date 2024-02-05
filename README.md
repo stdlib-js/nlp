@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.2.1-deno/mod.js';
 ```
 
 #### nlp
@@ -90,7 +90,7 @@ var fcns = nlp;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@deno/mod.js';
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( nlp ) );
 ```
