@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@esm/index.mjs';
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.3.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@esm/index.mjs';
+import { expandAcronyms, expandContractions, lda, ordinalize, porterStemmer, sentencize, tokenize } from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.3.2-esm/index.mjs';
 ```
 
 #### nlp
@@ -95,7 +95,7 @@ var fcns = nlp;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@esm/index.mjs';
+import nlp from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp@v0.3.2-esm/index.mjs';
 
 console.log( objectKeys( nlp ) );
 
