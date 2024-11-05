@@ -2,6 +2,49 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.2">
+
+## 0.3.2 (2024-11-05)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`5b989a6`](https://github.com/stdlib-js/stdlib/commit/5b989a66ecbbbeb2788c6cfbd74b7d01301c0173) - **chore:** fix language identifier description _(by Philipp Burckhardt)_
+-   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2024-08-18)
