@@ -90,6 +90,12 @@ bool = ( out[ 0 ] === sentences[ 0 ] );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/nlp/tokenize`][@stdlib/nlp/tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -97,6 +103,12 @@ bool = ( out[ 0 ] === sentences[ 0 ] );
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/nlp/tokenize]: https://github.com/stdlib-js/nlp/tree/main/tokenize
+
+<!-- </related-links> -->
 
 </section>
 
