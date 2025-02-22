@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-29)
+## Unreleased (2025-02-22)
 
 <section class="packages">
 
@@ -44,6 +44,40 @@
 
 <!-- /.package -->
 
+<section class="package" id="nlp-sentencize-unreleased">
+
+#### [@stdlib/nlp/sentencize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/sentencize)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3013](https://github.com/stdlib-js/stdlib/issues/3013)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -59,6 +93,18 @@
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3013](https://github.com/stdlib-js/stdlib/issues/3013)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
@@ -78,6 +124,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - **fix:** do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380) _(by Philipp Burckhardt)_
 -   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 
