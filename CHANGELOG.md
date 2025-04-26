@@ -57,6 +57,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`1b50164`](https://github.com/stdlib-js/stdlib/commit/1b50164b7f785f0f26ae47a579dca445a52fb7e4) - **docs:** fix various typos _(by Philipp Burckhardt)_
 -   [`805f439`](https://github.com/stdlib-js/stdlib/commit/805f439579204a004b3ff7cb040d5dca166c3205) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - **fix:** ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381) _(by Philipp Burckhardt)_
 -   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - **fix:** do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380) _(by Philipp Burckhardt)_
