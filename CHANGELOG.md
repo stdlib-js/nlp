@@ -4,21 +4,11 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="nlp-unreleased">
-
-#### [@stdlib/nlp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp)
-
-<details>
+## Unreleased (2025-04-26)
 
 <section class="features">
 
-##### Features
+### Features
 
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
@@ -26,33 +16,9 @@
 
 <!-- /.features -->
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-sentencize-unreleased">
-
-#### [@stdlib/nlp/sentencize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/sentencize)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381)
 -   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380)
@@ -60,28 +26,6 @@
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3013](https://github.com/stdlib-js/stdlib/issues/3013), [#3017](https://github.com/stdlib-js/stdlib/issues/3017)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -107,6 +51,24 @@ A total of 2 issues were closed in this release:
 
 <!-- /.issues -->
 
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`805f439`](https://github.com/stdlib-js/stdlib/commit/805f439579204a004b3ff7cb040d5dca166c3205) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - **fix:** ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381) _(by Philipp Burckhardt)_
+-   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - **fix:** do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380) _(by Philipp Burckhardt)_
+-   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
 <section class="contributors">
 
 ### Contributors
@@ -118,23 +80,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.contributors -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - **fix:** ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381) _(by Philipp Burckhardt)_
--   [`0830450`](https://github.com/stdlib-js/stdlib/commit/0830450b246c6d55458cbf0b0cfc0eb13585ebcf) - **fix:** do not break subsequent exclamation points or question marks in `nlp/sentencize` [(#5380)](https://github.com/stdlib-js/stdlib/pull/5380) _(by Philipp Burckhardt)_
--   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
 
 </section>
 
@@ -154,26 +99,6 @@ No changes reported for this release.
 
 ## 0.3.2 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -188,6 +113,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -207,26 +144,6 @@ No changes reported for this release.
 
 ## 0.3.0 (2024-08-17)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -240,6 +157,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -259,26 +188,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -293,6 +202,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -312,19 +233,9 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-11-08)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="nlp-v0.1.0">
-
-#### [@stdlib/nlp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
 -   [`377ae31`](https://github.com/stdlib-js/stdlib/commit/377ae317cf56720fbc00190c797211eb9453273a) - update namespace TypeScript declarations [(#1076)](https://github.com/stdlib-js/stdlib/pull/1076)
@@ -332,266 +243,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-expand-acronyms-v0.1.0">
-
-#### [@stdlib/nlp/expand-acronyms](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/expand-acronyms)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-expand-contractions-v0.1.0">
-
-#### [@stdlib/nlp/expand-contractions](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/expand-contractions)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-lda-v0.1.0">
-
-#### [@stdlib/nlp/lda](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/lda)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-ordinalize-v0.1.0">
-
-#### [@stdlib/nlp/ordinalize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/ordinalize)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-porter-stemmer-v0.1.0">
-
-#### [@stdlib/nlp/porter-stemmer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/porter-stemmer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-sentencize-v0.1.0">
-
-#### [@stdlib/nlp/sentencize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/sentencize)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="nlp-tokenize-v0.1.0">
-
-#### [@stdlib/nlp/tokenize](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/nlp/tokenize)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`898e8e4`](https://github.com/stdlib-js/stdlib/commit/898e8e45b2ff0b16c3b7a04786f4e2577422f5b6): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -604,19 +255,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -638,6 +276,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
