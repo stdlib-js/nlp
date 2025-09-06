@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-09-06)
 
 <section class="features">
 
@@ -57,6 +57,10 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`1b50164`](https://github.com/stdlib-js/stdlib/commit/1b50164b7f785f0f26ae47a579dca445a52fb7e4) - **docs:** fix various typos _(by Philipp Burckhardt)_
 -   [`805f439`](https://github.com/stdlib-js/stdlib/commit/805f439579204a004b3ff7cb040d5dca166c3205) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`eb500b7`](https://github.com/stdlib-js/stdlib/commit/eb500b74e3f55f794fd7db1b6f8c529cf8d3c5e3) - **fix:** ensure `nlp/sentencize` handles punctuation in quotation marks properly [(#5381)](https://github.com/stdlib-js/stdlib/pull/5381) _(by Philipp Burckhardt)_
