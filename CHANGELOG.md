@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-16)
+## Unreleased (2026-03-04)
 
 <section class="features">
 
@@ -43,9 +43,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#3013](https://github.com/stdlib-js/stdlib/issues/3013), [#3017](https://github.com/stdlib-js/stdlib/issues/3017), [#9965](https://github.com/stdlib-js/stdlib/issues/9965)
+[#3013](https://github.com/stdlib-js/stdlib/issues/3013), [#3017](https://github.com/stdlib-js/stdlib/issues/3017), [#9965](https://github.com/stdlib-js/stdlib/issues/9965), [#10693](https://github.com/stdlib-js/stdlib/issues/10693)
 
 </section>
 
@@ -57,6 +57,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6277feb`](https://github.com/stdlib-js/stdlib/commit/6277feb1c374f6171e19c631c309384b2f2e2c75) - **chore:** fix JavaScript lint errors [(#10701)](https://github.com/stdlib-js/stdlib/pull/10701) _(by Aniket Sonawane)_
 -   [`d4045a4`](https://github.com/stdlib-js/stdlib/commit/d4045a4b6c1bc9ead77c9b03068aec27a6cb863c) - **chore:** fix JavaScript lint errors [(#9968)](https://github.com/stdlib-js/stdlib/pull/9968) _(by Suyash Pathak, Athan Reines)_
 -   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -79,8 +80,9 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aniket Sonawane
 -   Athan Reines
 -   Philipp Burckhardt
 -   Suyash Pathak
