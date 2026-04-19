@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
@@ -57,6 +57,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e681a88`](https://github.com/stdlib-js/stdlib/commit/e681a88aa4e510f32408271c1d504cc4bd78e0bf) - **bench:** refactor to use string interpolation in `nlp` [(#11605)](https://github.com/stdlib-js/stdlib/pull/11605) _(by Karan Anand)_
 -   [`6277feb`](https://github.com/stdlib-js/stdlib/commit/6277feb1c374f6171e19c631c309384b2f2e2c75) - **chore:** fix JavaScript lint errors [(#10701)](https://github.com/stdlib-js/stdlib/pull/10701) _(by Aniket Sonawane)_
 -   [`d4045a4`](https://github.com/stdlib-js/stdlib/commit/d4045a4b6c1bc9ead77c9b03068aec27a6cb863c) - **chore:** fix JavaScript lint errors [(#9968)](https://github.com/stdlib-js/stdlib/pull/9968) _(by Suyash Pathak, Athan Reines)_
 -   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
@@ -80,10 +81,11 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Suyash Pathak
 
