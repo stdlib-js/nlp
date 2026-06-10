@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-10)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dd5048f`](https://github.com/stdlib-js/stdlib/commit/dd5048fdd2debb2b092d5847e29572df834be784) - **docs:** update TypeScript documentation and fix whitespace in `nlp/lda` declarations [(#12730)](https://github.com/stdlib-js/stdlib/pull/12730) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-06-05)
