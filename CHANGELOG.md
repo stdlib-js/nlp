@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6eccba0`](https://github.com/stdlib-js/stdlib/commit/6eccba016a3412217ad4f918116406c3453e6ff9) - **docs:** update `nlp` TypeScript declarations [(#12747)](https://github.com/stdlib-js/stdlib/pull/12747) _(by stdlib-bot)_
 -   [`dd5048f`](https://github.com/stdlib-js/stdlib/commit/dd5048fdd2debb2b092d5847e29572df834be784) - **docs:** update TypeScript documentation and fix whitespace in `nlp/lda` declarations [(#12730)](https://github.com/stdlib-js/stdlib/pull/12730) _(by Philipp Burckhardt)_
 
 </details>
